@@ -26,13 +26,15 @@ This is a local password manager designed to securely store and manage your pass
 
 ## Installation
 
-- Clone the repository: `git clone [repository URL]`
+- Clone the repository: `git clone https://github.com/siddhant-vij/Password-Manager.git`
 - Navigate to the project directory: `cd Password-Manager`
 - Delete the following files:
   - `data/masterHash`
   - `data/passwords.json.enc`
   - `resources/hashSalt`
 - Install dependencies: `conda create --name password-manager --file requirements.txt`
+- Activate the environment: `conda activate password-manager`
+- Install remaining dependencies: `pip install pyperclip`
 - Run the application: `python main.py`
 
 ## Contributing
@@ -62,4 +64,4 @@ All contributions to this project are welcome. If you have suggestions or want t
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/SiddhantVij/Password-Manager/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/siddhant-vij/Password-Manager/blob/main/LICENSE) for more information.
